@@ -7,10 +7,10 @@ Requirements:
   2. Run vagrant up wordpress mysql to provisoon the VMs.
   3. Requires ansible installation.
 
-        sudo apt update
-        sudo apt install software-properties-common
-        sudo apt-add-repository --yes --update ppa:ansible/ansible
-        sudo apt install ansible
+       - sudo apt update
+       - sudo apt install software-properties-common
+       - sudo apt-add-repository --yes --update ppa:ansible/ansible
+       - sudo apt install ansible
 
 These playbooks require Ansible 2.9.6
 
